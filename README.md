@@ -1,6 +1,6 @@
  # Exercícios Potigol IMD 2022.2
 
-<img src="./src/banner.png">
+<img src="./src/banner.png" border=5>
 
 <div style="display: inline_block" align=left>
 <img src="./src/potigol-logo.png" width=100>
