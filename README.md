@@ -21,6 +21,7 @@ A linguagem Potigol é Linguagem de programação multiparadigma funcional e mod
 * Inferência de tipos
 * Encoraja a programação funcional
 <br>
+
 ## Documentação
 - Acesse a Documentação <a href="https://potigol.github.io/docs/">Clicando aqui</a>.
 </div>
