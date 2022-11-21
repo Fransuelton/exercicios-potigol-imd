@@ -26,4 +26,4 @@ A linguagem Potigol é Linguagem de programação multiparadigma funcional e mod
 
 <b>
 
- >⚠️ Repositório criado para fins de estudo e comparação de atividades da disciplina Lógica de Programação realizadas no curso técnico de T.I do Instituto Metrópole Digital (IMD/UFRN).
+ >⚠️ Repositório criado para fins de estudo e comparação de atividades da disciplina de Lógica de Programação no Módulo básico do curso técnico de T.I do Instituto Metrópole Digital (IMD/UFRN).
