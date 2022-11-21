@@ -1,0 +1,18 @@
+# Função que verifica a senha digitada
+verificarSenha(s : texto)
+	se s == 'swordfish' então
+    	retorne verdadeiro
+    senão
+    	retorne falso
+    fim
+fim
+
+var senhaDoUsuario := 'swordfish'
+
+var acessoAutorizado := verificarSenha(senhaDoUsuario)
+
+se acessoAutorizado então
+	escreva "Acesso autorizado!"
+senão
+	escreva "Senha incorreta, acesso não autorizado!!"
+fim

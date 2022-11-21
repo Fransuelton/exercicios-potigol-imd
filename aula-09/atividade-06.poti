@@ -1,0 +1,7 @@
+var numero := leia_inteiro
+
+para i de 1 até (numero -1) faça
+	se numero mod i == 0 então
+    escreva i
+    fim
+fim

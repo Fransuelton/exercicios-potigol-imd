@@ -1,0 +1,9 @@
+var alunos := []
+
+para i de 1 até 10 faça
+	alunos[i] := leia_texto
+fim
+
+para i de 1 até 10 faça
+	escreva "{alunos[i]}"
+fim

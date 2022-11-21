@@ -1,0 +1,22 @@
+var numero := leia_inteiro
+var soma := 0
+var total := 0
+var num := 1
+var x := 1
+
+enquanto num <= numero faça
+x := 1
+enquanto x <= num faça
+se num mod x == 0 então
+total := total + 1
+fim
+x := x + 1
+fim
+se total == 2 então
+soma := soma + num
+fim
+total := 0
+num := num + 1
+fim
+
+imprima soma

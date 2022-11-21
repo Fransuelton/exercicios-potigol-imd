@@ -1,0 +1,8 @@
+var x := leia_inteiro
+var y := leia_inteiro
+
+para i de x até (y-1) faça
+	se y mod i == 0 então
+    	escreva i
+        fim
+fim

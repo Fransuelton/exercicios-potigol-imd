@@ -1,0 +1,28 @@
+var ve := vetor[100]
+
+para i de 0 até 99 faça
+	ve[i] := leia_inteiro
+fim
+
+var menor := ve[0]
+var indice := 0
+
+para i de 0 até 99 faça
+	se ve[i] < menor então
+    	menor := ve[i]
+        indice := i
+     fim
+fim
+
+escreva "Menor valor recebido: {menor}"
+escreva "Índice do menor valor: {indice}"
+
+se indice == 0 então
+	escreva "Valor armazenado na posição posterior [{indice+1}]: {ve[indice+1]}"
+senão se indice > 0 |e| indice < 99 então
+	escreva "Valor armazenado na posição anterior [{indice-1}]: {ve[indice-1]}"
+    escreva "Valor armazenado na posição posterior [{indice+1}]: {ve[indice+1]}"
+senão
+	escreva "Valor armazenado na posição anterior [{indice-1}]: {ve[indice-1]}"
+    fim
+fim

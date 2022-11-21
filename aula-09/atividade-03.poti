@@ -1,0 +1,15 @@
+var nota1 := leia_numero
+
+enquanto nota1 < 0 |ou| nota1 > 10 faça
+	escreva "Nota com valor inválido!"
+    nota1 := leia_numero
+fim
+
+var nota2 := leia_numero
+
+enquanto nota2 < 0 |ou| nota2 > 10 faça
+	escreva "Nota com valor inválido!"
+    nota2 := leia_numero
+fim
+
+escreva "{(nota1 + nota2)/2}"

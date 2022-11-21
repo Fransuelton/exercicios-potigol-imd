@@ -1,0 +1,9 @@
+var soma := 0
+var n := 1
+
+enquanto soma <= 100 faça
+	n := leia_inteiro
+    soma := soma + n
+fim
+
+	imprima "{soma}"

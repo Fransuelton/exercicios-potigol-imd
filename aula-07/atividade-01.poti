@@ -1,0 +1,10 @@
+var numero = leia_numero    
+var soma = 0                    
+
+para i de 1 ate numero faça    
+  se i mod 2 <> 0 entao        
+    soma = soma + i            
+  fim
+fim
+
+imprima soma

@@ -1,0 +1,7 @@
+var nota1 := leia_numero
+var nota2 := leia_numero
+var nota3 := leia_numero
+
+var media := nota1 * 4 + nota2 * 5 + nota3 * 6
+
+imprima "{media / 15}"

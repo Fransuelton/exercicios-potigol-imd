@@ -1,0 +1,12 @@
+var numero := leia_inteiro
+var soma := 0
+var controlador := 0
+
+enquanto (controlador <= numero) faça
+	se controlador mod 2 == 0 então
+    	soma := soma + controlador
+        fim
+	controlador := controlador + 1
+fim
+
+imprima soma

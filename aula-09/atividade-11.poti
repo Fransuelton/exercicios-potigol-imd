@@ -1,0 +1,19 @@
+var num1 := leia_inteiro
+var num2 := leia_inteiro
+var soma := 0
+
+se num1 mod 2 == 0 então
+	para i de num2 até num2 + (num1 * 2) - 1 faça
+    	se i mod 2 == 0 então
+        	soma := soma + i
+            fim
+     fim
+senão
+	para i de num2 até num2 + (num1 * 2) - 1 faça
+    	se i mod 2 <> 0 então
+        	soma := soma + i
+           fim
+     fim
+fim
+
+imprima soma

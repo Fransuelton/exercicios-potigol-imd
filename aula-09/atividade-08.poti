@@ -1,0 +1,14 @@
+var numero := leia_inteiro
+var qtd_divisores := 0
+
+para i de 1 até numero faça
+	se numero mod i == 0 então
+    qtd_divisores := qtd_divisores + 1
+    fim
+fim
+
+se qtd_divisores == 2 então
+	imprima "número é primo"
+senão
+	imprima "número não é primo"
+fim

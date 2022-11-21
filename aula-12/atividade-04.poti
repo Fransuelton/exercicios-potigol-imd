@@ -1,0 +1,25 @@
+var v := vetor[100]
+var numero := 1
+var i := 0
+
+enquanto numero <> 0 faça
+	numero := leia_inteiro
+    se numero <> 0 então
+    	v[i] := numero
+        i := i + 1
+    fim
+fim
+
+escreva "Conteúdo do vetor:"
+para j de 0 até i- 1 faça
+	imprima "{v[j]}, "
+fim
+
+escreva ""
+para k de 0 até i-1 passo 2 faça
+	se v[k] mod v[k+1] == 0 então
+    	escreva "{v[k]} é divisível por {v[k+1]}"
+ senão
+ 	escreva "{v[k]} não é divisível por {v[k+1]}"
+  fim
+fim

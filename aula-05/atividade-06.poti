@@ -1,0 +1,7 @@
+var n1 := leia_numero
+var n2 := leia_numero
+var n3 := leia_numero
+
+var r := (n1+n2+n3) / 3
+
+imprima "{r}"

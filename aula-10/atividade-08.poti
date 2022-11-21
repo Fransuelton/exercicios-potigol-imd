@@ -1,0 +1,13 @@
+var numero := leia_numero
+var contador := 0
+para i de 1 até numero faça
+	contador := 0
+    para j de 1 até i faça
+    	se i mod j == 0 então
+        	contador := contador + 1
+         fim
+      fim
+      se contador == 2 então
+      	escreva i
+     fim
+  fim

@@ -1,0 +1,15 @@
+var x := 4
+var alunos := []
+var faltas := []
+var notas := []
+
+para i de 0 até x-1 faça
+	alunos[i] := leia_texto
+    faltas[i] := leia_inteiro
+    notas[i] := leia_numero
+fim
+
+escreva "Nome – Nº de Faltas – Média"
+para i de 0 até x-1 faça
+	escreva "{alunos[i]} – {faltas[i]} – {notas[i]}"
+fim

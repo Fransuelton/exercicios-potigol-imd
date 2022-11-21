@@ -1,0 +1,14 @@
+var senha := leia_texto
+var verificador := "acertadamente"
+var exit := "sair"
+
+enquanto senha <> verificador |e| senha <> exit faça
+	senha := leia_texto 
+    fim
+    
+    se senha == verificador então
+    	escreva "Acesso concedido"
+        senãose senha == exit então
+        escreva "Programa encerrado"
+        
+    fim

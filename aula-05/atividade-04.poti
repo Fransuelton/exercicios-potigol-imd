@@ -1,0 +1,6 @@
+var x := leia_numero
+var y := leia_numero
+
+var r := (x+y) / 2
+
+escreva "A média entre os números {x} e {y} é {r}"

@@ -1,0 +1,12 @@
+var x := 100
+var vetorA := []
+
+para i de 0 até x-1 faça
+	vetorA[i] := leia_numero
+fim
+
+para i de 0 até x-1 faça
+	se vetorA[i] <= 10 então
+    		escreva "v[{i}] = {vetorA[i]}"
+            fim
+  fim

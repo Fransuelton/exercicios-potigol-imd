@@ -1,0 +1,9 @@
+var felicidade := leia_inteiro
+var i := 1
+
+imprima "Feliz Nat"
+enquanto i <= felicidade faça
+	imprima "a"
+    i := i + 1
+fim
+imprima "l!"

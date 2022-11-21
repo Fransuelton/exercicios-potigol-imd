@@ -1,0 +1,10 @@
+var x := leia_inteiro
+var y := leia_inteiro
+
+var soma := 0
+
+para i de x até y faça
+	soma := soma + i
+fim
+
+imprima soma

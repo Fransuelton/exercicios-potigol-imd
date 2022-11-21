@@ -1,0 +1,17 @@
+var v := vetor[100]
+var numero := -1
+var i := 0
+
+enquanto numero <> 0 faça
+	numero := leia_inteiro
+    se numero <> 0 então
+    	v[i] := numero
+        i := i + 1
+    fim
+fim
+
+para j de i-2 até 0 passo -1 faça
+	se v[j] mod v[i-1] == 0 então
+    	escreva "{v[j]}"
+     fim
+fim

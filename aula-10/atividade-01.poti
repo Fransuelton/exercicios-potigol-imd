@@ -1,0 +1,31 @@
+var controle1 := true
+var controle2 := true
+var numero := 0
+var contador := 0
+var i1 := 0
+
+enquanto controle1 faça
+	controle2 := true
+    contador := 0
+	enquanto controle2 faça
+    	numero := leia_inteiro
+        se contador == 0 então
+        i1 := numero
+        contador := 1
+        numero := leia_inteiro
+     fim
+     se (i1+contador) == numero então
+     	contador := contador + 1
+        se contador == 6 então
+        	controle1 := false
+            controle2 := false
+         fim
+       senão
+       		controle2 := false
+         fim
+      fim
+   fim
+   
+para i de i1 até i1+5 faça
+	escreva i
+fim

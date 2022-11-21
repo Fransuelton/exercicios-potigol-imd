@@ -1,0 +1,25 @@
+var numeros := vetor[100]
+var min := 0
+var aux := 0
+
+para i de 0 até 99 faça
+	numeros[i] := leia_inteiro
+fim
+
+para i de 0 até 98 faça
+	min := i
+    para j de i+1 até 99 faça
+    	se numeros[j] < numeros[min] então
+        	min := j
+    fim
+fim
+se numeros[i] <> numeros[min] então
+	aux := numeros[i]
+    numeros[i] := numeros[min]
+    numeros[min] := aux
+	fim
+fim
+
+para i de 0 até 99 faça
+	escreva numeros[i]
+fim

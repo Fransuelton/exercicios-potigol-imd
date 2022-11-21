@@ -1,0 +1,11 @@
+var numero := 1
+var maior := 0
+
+enquanto numero <> 0 faça
+	numero := leia_inteiro
+    se numero > maior então
+    	maior := numero
+    fim
+fim
+
+imprima maior

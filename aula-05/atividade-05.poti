@@ -1,0 +1,7 @@
+var x := leia_numero
+var y := leia_numero
+var z := leia_numero
+
+var w := (x * y) / z
+
+escreva "O resultado da expressão é {w}"

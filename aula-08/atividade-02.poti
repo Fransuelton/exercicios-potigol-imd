@@ -1,0 +1,9 @@
+var x := leia_inteiro
+var y := leia_inteiro
+
+para i de 1 até x faça
+	para j de 1 até y faça
+    	imprima "{i}.{j} "
+    fim
+    escreva ""
+fim

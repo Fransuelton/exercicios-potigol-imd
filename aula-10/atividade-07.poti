@@ -1,0 +1,36 @@
+var ant := 0
+var ini := 0
+var qntd := 1
+var n := -1
+var maiorSeq := 0
+var maiorIni := 0
+
+var cont := 0
+
+enquanto n <> 0 faça
+	n := leia_inteiro
+    
+    se cont == 0 então
+    	ant := n
+        ini := n
+        cont := cont + 1
+     fim
+     
+     se n - ant == 1 então
+     	qntd := qntd + 1
+        se qntd == 2 então
+        	ini := ant
+        fim
+      senão
+        	se qntd > maiorSeq então
+            	maiorSeq := qntd
+                maiorIni := ini
+            fim
+            qntd := 1
+     fim
+
+	 ant := n
+fim
+
+escreva "Termo inicial: {maiorIni}"
+escreva "Maior sequência: {maiorSeq}"

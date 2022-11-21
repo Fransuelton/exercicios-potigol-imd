@@ -1,0 +1,16 @@
+var n1 := leia_inteiro
+var n2 := leia_inteiro
+
+escolha n1 + n2
+	caso 0 => imprima "0 - PROXYCITY"
+    caso 1 => imprima "1 - P.Y.N.G."
+    caso 2 => imprima "2 - DNSUEY!"
+    caso 3 => imprima "3 - SERVERS"
+    caso 4 => imprima "4 - HOST!"
+    caso 5 => imprima "5 - CRIPTONIZE"
+    caso 6 => imprima "6 - OFFLINE DAY"
+    caso 7 => imprima "7 - SALT"
+    caso 8 => imprima "8 - ANSWER!"
+    caso 9 => imprima "9 - RAR?"
+    caso 10 => imprima "10 - WIFI ANTENNAS"
+    fim

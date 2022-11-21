@@ -1,0 +1,42 @@
+var par := vetor[10]
+var impar := vetor[10]
+var numero := 0
+var total_par := 0
+var total_impar := 0
+
+para i de 1 até 15 faça
+	numero := leia_inteiro
+    se numero mod 2 == 0 então
+    	se total_par < 10
+        	par[total_par] := numero
+            total_par := total_par + 1
+         senão
+         	total_par := 9
+            para i de 0 até 8 faça
+            	par[i] := par[i + 1]
+                fim
+                par[9] := numero
+                total_par := total_par + 1
+             fim
+          senão
+          	se total_impar < 10
+            	impar[total_impar] := numero
+                total_impar := total_impar + 1
+              senão
+              	total_impar := 9
+                para i de 0 até 8 faça
+                	impar[i] := impar[i + 1]
+                fim
+                impar[9] := numero
+                total_impar := total_impar + 1
+              fim
+             fim
+   fim
+   
+   para i de 0 até total_impar-1 faça
+   	imprima "{impar[i]} "
+fim
+escreva
+para i de 0 até total_par-1 faça
+	imprima "{par[i]} "
+fim

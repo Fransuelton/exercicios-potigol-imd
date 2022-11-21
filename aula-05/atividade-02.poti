@@ -1,0 +1,5 @@
+var n1 := leia_inteiro
+var n2 := leia_inteiro
+var r := n1 - n2
+
+imprima "{r}"

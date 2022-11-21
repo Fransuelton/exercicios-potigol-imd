@@ -1,0 +1,7 @@
+var n1 := leia_inteiro
+var n2 := leia_inteiro
+
+se n1 mod n2 == 0 então 
+    imprima "É divisor"
+    senão
+    fim

@@ -1,0 +1,15 @@
+var numero := leia_inteiro
+var soma := 0
+
+para i de 1 até numero faça
+	soma := 0
+    para j de 1 até (i - 1) faça
+    	se i mod j == 0 então
+        	soma := soma + j
+         fim
+      fim
+      
+      se soma == i então
+      	escreva "{i} é um número perfeito"
+        fim
+     fim

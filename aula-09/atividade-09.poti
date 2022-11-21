@@ -1,0 +1,14 @@
+var num := leia_inteiro
+var soma := 0
+
+para i de 1 até (num - 1) faça
+	se num mod i == 0 então
+    	soma := soma + i
+        fim
+fim
+
+se soma == num então
+	imprima "é um número perfeito"
+senão
+	imprima "não é um número perfeito"
+fim

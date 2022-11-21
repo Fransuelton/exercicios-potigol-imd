@@ -1,0 +1,5 @@
+var numero := leia_inteiro
+
+para i de 1 até 10 faça
+	escreva "{i}x{numero}={i*numero}"
+fim
